@@ -1,41 +1,50 @@
-# 🛒 Java E-commerce System
+# 🛒 Java E-Commerce System (Console-Based)
 
-This is a simple console-based E-commerce system developed as a study project to practice core Java programming, object-oriented principles, and inheritance.
+This project simulates the backend logic of an e-commerce platform using Java. It demonstrates object-oriented programming principles including inheritance, encapsulation, and abstraction.
 
 ---
 
 ## 🚀 Features
 
-- Console-based user interaction
-- Basic User System:
-  - Admin user (inventory management)
-  - Customer user (browse & purchase)
-- Product listing and selection
-- Cart management
-- Demonstrates object-oriented programming:
-  - Inheritance (User → Admin, Customer)
-  - Encapsulation
-  - Polymorphism
+- User and Admin roles (with different permissions)
+- Add, remove, and list products
+- Place orders and manage inventory
+- Track product quantity and pricing
+- Uses simple Java I/O for console interaction
 
 ---
 
-## 🧠 Technologies Used
+## 🧠 Object-Oriented Design
 
-- Java (no external libraries)
-- OOP (inheritance, abstraction, encapsulation)
-- Basic console I/O
+The system is built using core OOP concepts:
+
+- ✅ Inheritance (e.g. User → Admin, Customer)
+- ✅ Encapsulation (private fields + getters/setters)
+- ✅ Abstraction (abstract classes/interfaces)
+- ✅ Polymorphism (method overriding where needed)
 
 ---
 
-## 📁 Project Structure
+## 🧱 Technologies
 
-```bash
+- Java (JDK 8+)
+- No external libraries
+- Console-based interface (no GUI)
+
+---
+
+## 📁 Project Structure (Example)
+
 Java-Ecommerce-System/
 │
-├── User.java
-├── Customer.java
-├── Admin.java
-├── Product.java
-├── Cart.java
 ├── Main.java
+├── models/
+│ ├── Product.java
+│ ├── User.java
+│ ├── Admin.java
+│ └── Customer.java
+├── services/
+│ └── OrderService.java
+├── utils/
+│ └── InputValidator.java
 └── README.md
