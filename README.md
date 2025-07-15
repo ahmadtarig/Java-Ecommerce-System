@@ -32,19 +32,3 @@ The system is built using core OOP concepts:
 - Console-based interface (no GUI)
 
 ---
-
-## 📁 Project Structure (Example)
-
-Java-Ecommerce-System/
-│
-├── Main.java
-├── models/
-│ ├── Product.java
-│ ├── User.java
-│ ├── Admin.java
-│ └── Customer.java
-├── services/
-│ └── OrderService.java
-├── utils/
-│ └── InputValidator.java
-└── README.md
